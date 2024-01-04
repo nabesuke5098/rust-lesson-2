@@ -37,4 +37,16 @@ fn main() {
 
     let s1 = "Rust";
     let s2 = "java".to_string();
+
+    say_hello();
+    let c = add(2, 4);
+    println!("{}", c);
+}
+
+fn say_hello() {
+    println!("Hello!!");
+}
+
+fn add(a: i32, b: i32) -> i32 {
+    a + b
 }
